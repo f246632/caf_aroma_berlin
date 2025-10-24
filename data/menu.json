@@ -1,0 +1,64 @@
+{
+  "coffee": [
+    {
+      "name": "Peruvian Coffee",
+      "description": "Premium coffee beans sourced directly from Peru",
+      "specialty": true
+    },
+    {
+      "name": "Espresso",
+      "description": "Classic Italian-style espresso"
+    },
+    {
+      "name": "Cappuccino",
+      "description": "Perfectly balanced cappuccino with microfoam"
+    },
+    {
+      "name": "Café Latte",
+      "description": "Smooth and creamy latte"
+    },
+    {
+      "name": "Americano",
+      "description": "Espresso with hot water"
+    },
+    {
+      "name": "Espresso Macchiato",
+      "description": "Espresso with a dash of foamed milk"
+    }
+  ],
+  "food": [
+    {
+      "name": "Panini",
+      "description": "Fresh grilled panini sandwiches",
+      "category": "savory"
+    },
+    {
+      "name": "Croissants",
+      "description": "Buttery, flaky French croissants",
+      "category": "pastry"
+    },
+    {
+      "name": "Macarons",
+      "description": "Delicate French macarons in various flavors",
+      "category": "pastry"
+    },
+    {
+      "name": "Alfajores",
+      "description": "Traditional filled cookies (complimentary for children)",
+      "category": "specialty",
+      "specialty": true
+    }
+  ],
+  "future_menu": [
+    {
+      "name": "Ceviche",
+      "description": "Authentic Peruvian ceviche (coming soon)",
+      "category": "peruvian"
+    },
+    {
+      "name": "Lomo",
+      "description": "Peruvian lomo dish (coming soon)",
+      "category": "peruvian"
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café Aroma Berlin - A cozy family café in Weißensee serving premium Peruvian coffee, fresh pastries, and international cuisine. Open Mon-Fri 8:00-18:00, Sat 9:00-16:00.">
+    <meta name="keywords" content="Café, Coffee, Berlin, Weißensee, Antonplatz, Peruvian Coffee, Family Café, Breakfast, Lunch, Pastries">
+    <meta name="author" content="Café Aroma Berlin">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Café Aroma Berlin - A Café with Family Atmosphere">
+    <meta property="og:description" content="Premium Peruvian coffee and fresh pastries in Weißensee">
+    <meta property="og:image" content="images/source/hero-1.jpg">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Cafe",
+      "name": "Café Aroma Berlin",
+      "image": "images/source/hero-1.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Tassostraße 22",
+        "addressLocality": "Berlin",
+        "addressRegion": "Berlin",
+        "postalCode": "13086",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.5558,
+        "longitude": 13.4681
+      },
+      "url": "https://f246632.github.io/caf_aroma_berlin",
+      "telephone": "+49-30-xxxxx",
+      "servesCuisine": ["Coffee", "Breakfast", "Pastries", "International"],
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "16:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "15"
+      }
+    }
+    </script>
+
+    <title>Café Aroma Berlin - Premium Peruvian Coffee & Family Atmosphere</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Café Aroma</h1>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Über uns</a></li>
+                <li><a href="#menu" class="nav-link">Menü</a></li>
+                <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                <li><a href="#reviews" class="nav-link">Bewertungen</a></li>
+                <li><a href="#location" class="nav-link">Standort</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Café Aroma Berlin</h1>
+            <p class="hero-subtitle fade-in-delay">A Café with Family Atmosphere</p>
+            <p class="hero-description fade-in-delay-2">Premium Peruvian Coffee • Fresh Pastries • Weißensee</p>
+            <div class="hero-buttons fade-in-delay-3">
+                <a href="#menu" class="btn btn-primary">Unser Menü</a>
+                <a href="#location" class="btn btn-secondary">Besuchen Sie uns</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Willkommen bei Café Aroma</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="intro-text">
+                        Welcome to Café Aroma Berlin, a cozy neighborhood gem in Weißensee.
+                        Founded by Eric Denegri, a trained chef from Peru, we bring you premium
+                        Peruvian coffee, delicious pastries, and a warm family-friendly atmosphere.
+                    </p>
+                    <p>
+                        Our café combines international flavors with a welcoming Berlin spirit.
+                        Since opening in March 2024, we've become a beloved spot around Antonplatz,
+                        offering a unique alternative to the traditional döner shops and bakeries.
+                    </p>
+                    <p>
+                        With pastel-colored walls, plenty of plants, and a genuine family atmosphere,
+                        Café Aroma is the perfect place to enjoy exceptional coffee, work on your
+                        laptop, or simply relax with friends and family.
+                    </p>
+                </div>
+                <div class="about-features">
+                    <div class="feature-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">☕</div>
+                            <h3>Premium Coffee</h3>
+                            <p>Authentic Peruvian coffee beans</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">👨‍👩‍👧‍👦</div>
+                            <h3>Family Friendly</h3>
+                            <p>Welcoming atmosphere for all ages</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🥐</div>
+                            <h3>Fresh Pastries</h3>
+                            <p>Daily baked croissants & macarons</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">💻</div>
+                            <h3>Work Friendly</h3>
+                            <p>Perfect for remote work</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🍵</div>
+                            <h3>Tea Selection</h3>
+                            <p>Wide variety of premium teas</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🥪</div>
+                            <h3>All-Day Dining</h3>
+                            <p>Breakfast & lunch options</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Unser Menü</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Small and international selection of the finest quality</p>
+            </div>
+
+            <div class="menu-content">
+                <!-- Coffee Menu -->
+                <div class="menu-category">
+                    <h3 class="category-title">Coffee & Drinks</h3>
+                    <div class="menu-items">
+                        <div class="menu-item featured">
+                            <div class="item-header">
+                                <h4>Peruvian Coffee</h4>
+                                <span class="specialty-badge">Specialty</span>
+                            </div>
+                            <p class="item-description">Premium coffee beans sourced directly from Peru</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Espresso</h4>
+                            </div>
+                            <p class="item-description">Classic Italian-style espresso</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Cappuccino</h4>
+                            </div>
+                            <p class="item-description">Perfectly balanced cappuccino with microfoam</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Café Latte</h4>
+                            </div>
+                            <p class="item-description">Smooth and creamy latte</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Americano</h4>
+                            </div>
+                            <p class="item-description">Espresso with hot water</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Espresso Macchiato</h4>
+                            </div>
+                            <p class="item-description">Espresso with a dash of foamed milk</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Menu -->
+                <div class="menu-category">
+                    <h3 class="category-title">Food & Pastries</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Panini</h4>
+                            </div>
+                            <p class="item-description">Fresh grilled panini sandwiches</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Croissants</h4>
+                            </div>
+                            <p class="item-description">Buttery, flaky French croissants</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Macarons</h4>
+                            </div>
+                            <p class="item-description">Delicate French macarons in various flavors</p>
+                        </div>
+                        <div class="menu-item featured">
+                            <div class="item-header">
+                                <h4>Alfajores</h4>
+                                <span class="specialty-badge">Specialty</span>
+                            </div>
+                            <p class="item-description">Traditional filled cookies (complimentary for children!)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coming Soon -->
+                <div class="menu-category coming-soon">
+                    <h3 class="category-title">Coming Soon - Peruvian Dishes</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Ceviche</h4>
+                            </div>
+                            <p class="item-description">Authentic Peruvian ceviche</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Lomo</h4>
+                            </div>
+                            <p class="item-description">Traditional Peruvian lomo dish</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Unsere Galerie</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Entdecken Sie die Atmosphäre unseres Cafés</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="interior">
+                    <img src="images/source/interior-1.jpg" alt="Café Aroma Interior" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Interior</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="interior">
+                    <img src="images/source/interior-2.jpg" alt="Cozy Seating Area" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Cozy Atmosphere</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="food">
+                    <img src="images/source/food-1.jpg" alt="Delicious Food" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Our Food</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="food">
+                    <img src="images/source/food-2.jpg" alt="Fresh Pastries" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Fresh Pastries</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="atmosphere">
+                    <img src="images/source/atmosphere-1.jpg" alt="Café Atmosphere" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Atmosphere</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="atmosphere">
+                    <img src="images/source/atmosphere-2.jpg" alt="Welcoming Space" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Welcoming Space</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="exterior">
+                    <img src="images/source/exterior-1.jpg" alt="Café Exterior" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Exterior</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="general">
+                    <img src="images/source/gallery-1.jpg" alt="Café Details" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Details</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="general">
+                    <img src="images/source/gallery-2.jpg" alt="Café Experience" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Experience</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="general">
+                    <img src="images/source/gallery-3.jpg" alt="Café Moments" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Moments</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="general">
+                    <img src="images/source/hero-1.jpg" alt="Café Aroma Berlin" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Café Aroma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2>Was Unsere Gäste Sagen</h2>
+                <div class="section-divider"></div>
+                <div class="rating-summary">
+                    <div class="stars">★★★★★</div>
+                    <p class="rating-text">4.8/5 basierend auf 15+ Google Bewertungen</p>
+                </div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        "Very sweet, cosy and calmed cafe, recommended. Staff is super kind and attentive."
+                    </p>
+                    <div class="review-author">
+                        <p class="author-name">Local Customer</p>
+                        <p class="review-date">2024</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        "Little gem in Weissensee. Cozy small place with great Cappuccino and pastries."
+                    </p>
+                    <div class="review-author">
+                        <p class="author-name">Berlin Resident</p>
+                        <p class="review-date">2024</p>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">
+                        "Great coffee place! The best one around Antonplatz. Super lecker! Auf jeden Fall empfehlenswert."
+                    </p>
+                    <div class="review-author">
+                        <p class="author-name">Neighborhood Regular</p>
+                        <p class="review-date">2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-cta">
+                <a href="https://www.google.com/maps/search/?api=1&query=Café%20Aroma%20Berlin&query_place_id=ChIJfaXRPwhNqEcRSRwRzATyTzQ" target="_blank" rel="noopener" class="btn btn-primary">
+                    Mehr Bewertungen auf Google
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-header">
+                <h2>Besuchen Sie Uns</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-block">
+                        <h3>📍 Adresse</h3>
+                        <p>Tassostraße 22<br>13086 Berlin<br>Weißensee (near Antonplatz)</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>⏰ Öffnungszeiten</h3>
+                        <table class="hours-table">
+                            <tr>
+                                <td>Montag - Freitag</td>
+                                <td>8:00 - 18:00</td>
+                            </tr>
+                            <tr>
+                                <td>Samstag</td>
+                                <td>9:00 - 16:00</td>
+                            </tr>
+                            <tr>
+                                <td>Sonntag</td>
+                                <td>Geschlossen</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="info-block">
+                        <h3>🚇 Anfahrt</h3>
+                        <p><strong>Tram:</strong> M4, M13 - Antonplatz<br>
+                        <strong>Bus:</strong> 156, 158<br>
+                        Directly at Antonplatz in Weißensee</p>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.8!2d13.468!3d52.556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84d030fd1a57f%3A0x344ff302c411c149!2sCaf%C3%A9%20Aroma%20Berlin!5e0!3m2!1sen!2sde!4v1234567890"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Café Aroma Berlin Location">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Kontakt</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Telefon</h3>
+                            <p><a href="tel:+4930xxxxx">+49 (0) 30 [To be updated]</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@cafearomaberlin.de">info@cafearomaberlin.de</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h3>Social Media</h3>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/cafe.aroma.berlin/" target="_blank" rel="noopener" class="social-link">
+                                    Instagram @cafe.aroma.berlin
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <h3>Nachricht Senden</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Senden</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Café Aroma Berlin</h3>
+                    <p>A Café with Family Atmosphere</p>
+                    <p class="footer-tagline">Premium Peruvian Coffee in Weißensee</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Schnelllinks</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Über uns</a></li>
+                        <li><a href="#menu">Menü</a></li>
+                        <li><a href="#gallery">Galerie</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontakt</h3>
+                    <p>Tassostraße 22<br>13086 Berlin</p>
+                    <p>Mo-Fr: 8:00-18:00<br>Sa: 9:00-16:00</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Folgen Sie Uns</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/cafe.aroma.berlin/" target="_blank" rel="noopener">Instagram</a>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Café%20Aroma%20Berlin&query_place_id=ChIJfaXRPwhNqEcRSRwRzATyTzQ" target="_blank" rel="noopener">Google Maps</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Café Aroma Berlin. All rights reserved.</p>
+                <p>Opened March 2024 • Family-owned and operated</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev">&#10094;</button>
+        <button class="lightbox-next" id="lightboxNext">&#10095;</button>
+        <img src="" alt="Gallery Image" id="lightboxImage">
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

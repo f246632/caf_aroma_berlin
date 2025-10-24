@@ -1,0 +1,24 @@
+{
+  "google_rating": "4.8/5",
+  "total_reviews": "15+",
+  "reviews": [
+    {
+      "author": "Local Customer",
+      "rating": 5,
+      "text": "Very sweet, cosy and calmed cafe, recommended. Staff is super kind and attentive.",
+      "date": "2024"
+    },
+    {
+      "author": "Berlin Resident",
+      "rating": 5,
+      "text": "Little gem in Weissensee. Cozy small place with great Cappuccino and pastries.",
+      "date": "2024"
+    },
+    {
+      "author": "Neighborhood Regular",
+      "rating": 5,
+      "text": "Great coffee place! The best one around Antonplatz. Super lecker! Auf jeden Fall empfehlenswert.",
+      "date": "2024"
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+/* ============================================
+   Café Aroma Berlin - Responsive Styles
+   Mobile-first responsive design
+   ============================================ */
+
+/* Tablet Landscape (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .location-content {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Tablet Portrait (max-width: 768px) */
+@media (max-width: 768px) {
+    :root {
+        --spacing-lg: 3rem;
+        --spacing-xl: 4rem;
+    }
+
+    /* Navigation */
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 70%;
+        max-width: 300px;
+        background: var(--bg-dark);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        transition: var(--transition-normal);
+        box-shadow: -5px 0 20px var(--shadow);
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-toggle {
+        display: flex;
+        z-index: 1001;
+    }
+
+    .nav-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+
+    /* Hero */
+    .hero {
+        background-attachment: scroll;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Features */
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Gallery */
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: var(--spacing-sm);
+    }
+
+    /* Reviews */
+    .reviews-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Lightbox */
+    .lightbox-prev,
+    .lightbox-next {
+        padding: 0.75rem 1rem;
+        font-size: 1.5rem;
+    }
+
+    .lightbox-prev {
+        left: 1rem;
+    }
+
+    .lightbox-next {
+        right: 1rem;
+    }
+
+    .lightbox-close {
+        top: 1rem;
+        right: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    :root {
+        --spacing-md: 1.5rem;
+        --spacing-lg: 2.5rem;
+        --spacing-xl: 3rem;
+    }
+
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+
+    /* Typography */
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.5rem; }
+
+    /* Navigation */
+    .nav-brand h1 {
+        font-size: 1.5rem;
+    }
+
+    .nav-menu {
+        width: 85%;
+    }
+
+    /* Hero */
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 0.875rem 2rem;
+        font-size: 0.9rem;
+    }
+
+    /* Gallery */
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+
+    /* Menu */
+    .menu-category {
+        padding: var(--spacing-md);
+    }
+
+    .category-title {
+        font-size: 1.5rem;
+    }
+
+    .menu-item {
+        padding: var(--spacing-sm);
+    }
+
+    /* Location Map */
+    .location-map {
+        min-height: 300px;
+    }
+
+    /* Contact Form */
+    .contact-form-wrapper {
+        padding: var(--spacing-md);
+    }
+
+    /* Lightbox */
+    .lightbox img {
+        max-width: 95%;
+    }
+
+    .lightbox-prev {
+        left: 0.5rem;
+    }
+
+    .lightbox-next {
+        right: 0.5rem;
+    }
+
+    .lightbox-close {
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+}
+
+/* Very Small Mobile (max-width: 320px) */
+@media (max-width: 320px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .feature-item {
+        padding: var(--spacing-sm);
+    }
+
+    .feature-icon {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.85rem;
+    }
+}
+
+/* Landscape orientation adjustments */
+@media (max-height: 600px) and (orientation: landscape) {
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding: 6rem 0 2rem;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+}
+
+/* High resolution displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .gallery-item img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .hero-buttons,
+    .scroll-indicator,
+    .contact-form,
+    .lightbox {
+        display: none;
+    }
+
+    .hero {
+        background-attachment: local;
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .hero {
+        background-attachment: scroll;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    /* Optional: Add dark mode styles if needed */
+    /* Currently the cafe has a warm, light aesthetic, so keeping default */
+}

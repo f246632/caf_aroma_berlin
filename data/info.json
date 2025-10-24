@@ -1,0 +1,40 @@
+{
+  "name": "Café Aroma Berlin",
+  "tagline": "A Café with Family Atmosphere",
+  "description": "Welcome to Café Aroma Berlin, a cozy neighborhood gem in Weißensee. Founded by Eric Denegri, a trained chef from Peru, we bring you premium Peruvian coffee, delicious pastries, and a warm family-friendly atmosphere. Our café combines international flavors with a welcoming Berlin spirit.",
+  "owner": {
+    "name": "Eric Jair Denegri Briceno",
+    "background": "Trained chef from Peru, immigrated to Berlin at age 18. Previously operated 'Jarú' Peruvian street food brand."
+  },
+  "contact": {
+    "address": "Tassostraße 22",
+    "city": "13086 Berlin",
+    "neighborhood": "Weißensee",
+    "landmark": "Near Antonplatz",
+    "phone": "+49 (0) 30 [Phone to be updated]",
+    "email": "info@cafearomaberlin.de",
+    "instagram": "@cafe.aroma.berlin",
+    "facebook": ""
+  },
+  "hours": {
+    "monday": "8:00 AM - 6:00 PM",
+    "tuesday": "8:00 AM - 6:00 PM",
+    "wednesday": "8:00 AM - 6:00 PM",
+    "thursday": "8:00 AM - 6:00 PM",
+    "friday": "8:00 AM - 6:00 PM",
+    "saturday": "9:00 AM - 4:00 PM",
+    "sunday": "Closed"
+  },
+  "features": [
+    "Premium Peruvian Coffee",
+    "Family-Friendly Atmosphere",
+    "Fresh Pastries & Macarons",
+    "Cozy Interior with Pastel Decor",
+    "Perfect for Working on Laptop",
+    "Great Selection of Teas",
+    "Breakfast & Lunch Options",
+    "Complimentary Alfajores for Children"
+  ],
+  "opened": "March 2024",
+  "staff_size": "23 employees across all operations"
+}
